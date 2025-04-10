@@ -8,6 +8,7 @@ import background_image from "../assets/background_image.png";
 import "swiper/css";
 const Home = () => {
   return (
+    // -------------------------------Start----------------------------//
     <>
       <section className="background-color_header d-flex justify-content-center">
         <div className="containers py-5 px-4  ">
@@ -265,6 +266,7 @@ const Home = () => {
         </section>
       </div>
     </>
+    // -------------------------end------------------------------------//
   );
 };
 export default Home;
