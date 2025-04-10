@@ -1,7 +1,3 @@
-
-
-
-
 .button_unset {
   all: unset;
 }
@@ -361,6 +357,75 @@
 }
 .font-weight-lighter {
   font-weight: lighter;
+}
+
+/* line height */
+/* line height */
+.line_height_10{
+  line-height: clamp(9px, 1.9vw, 10px);
+}
+.line_height_12{
+  line-height: clamp(12px, 2vw, 12px);
+}
+.line_height_14{
+  line-height: clamp(14px, 2vw, 14px);
+}
+.line_height_15{
+  line-height: clamp(13px, 2vw, 15px);
+}
+.line_height_16{
+  line-height: clamp(16px, 2vw, 16px);
+}
+.line_height_18{
+  line-height: clamp(18px, 2vw, 18px);
+}
+.line_height_19{
+  line-height: clamp(19px, 2vw, 19px);
+}
+.line_height_20{
+  line-height: clamp(20px, 2vw, 20px);
+}
+.line_height_24{
+  line-height: clamp(22px, 2vw, 24px);
+}
+.line_height_25{
+  line-height: clamp(25px, 2vw, 25px);
+}
+.line_height_27{
+  line-height: clamp(27px, 2vw, 27px);
+}
+.line_height_28{
+  line-height: clamp(25px, 2vw, 28px);
+}
+.line_height_30{
+  line-height: clamp(30px, 2.8vw, 30px);
+}
+.line_height_35{
+  line-height: clamp(35px, 2.8vw, 35px);
+}
+.line_height_38{
+  line-height: clamp(38px, 2.8vw, 38px);
+}
+.line_height_40{
+  line-height: clamp(40px, 3.5vw, 40px);
+}
+.line_height_46{
+  line-height: clamp(46px, 3.5vw, 46px);
+}
+.line_height_50{
+  line-height: clamp(50px, 3.5vw, 50px);
+}
+.line_height_54{
+  line-height: clamp(54px, 3.5vw, 54px);
+}
+.line_height_60{
+  line-height: clamp(28px, 5.5vw, 60px);
+}
+.line_height_65{
+  line-height: clamp(35px, 5.5vw, 65px);
+}
+.line_height_70{
+  line-height: clamp(28px, 5.5vw, 70px);
 }
 /* //border radius */
 .br_5{

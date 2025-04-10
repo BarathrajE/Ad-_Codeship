@@ -150,7 +150,7 @@ const Home = () => {
                         {service.description}
                       </p>
                       <p className="font_color_blue pt-4">
-                        Read More <i className="fa-solid fa-greater-than "></i>
+                        Read More <i class="fa-solid fa-chevron-right"></i>
                       </p>
                     </div>
                     <div className="position-absolute position_size">
