@@ -5,6 +5,7 @@ import "./styles.css";
 import Home from "./components/Home";
 // Portfolio_and_below
 import {Portfolio_and_below} from "./components/portfolio_and_below.jsx";
+import Footer from "./components/footer.jsx";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Home />
      {/* Portfolio_and_below */}
      <Portfolio_and_below />
+     <Footer/>
     </div>
   );
 }

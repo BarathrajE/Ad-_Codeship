@@ -18,6 +18,9 @@
   padding-top:5% ;
 
 }
+.br_1{
+  border: 1px solid #504ca0;
+}
 .hover:hover{
   color: white !important;
   background-color: #4f4e9f  !important;

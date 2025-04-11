@@ -233,28 +233,28 @@ const Home = () => {
                 <div className="row">
                   <div className="col-xl-3 col-6  pb-3">
                     <div>
-                      <Button className="btn bg-white w-100 border-dark text-dark br_15 font_size_12 font-weight-500 hover">
+                      <Button className="btn bg-white w-100 br_1 font_color_blue br_15 font_size_12 font-weight-500 hover">
                         All
                       </Button>
                     </div>
                   </div>
                   <div className="col-xl-3  col-6">
                     <div>
-                      <Button className="btn bg-white  w-100 border-dark text-dark font_size_12  br_15  font-weight-500 hover">
+                      <Button className="btn bg-white  w-100 br_1 font_color_blue font_size_12  br_15  font-weight-500 hover">
                         Websites
                       </Button>
                     </div>
                   </div>
                   <div className="col-xl-3 col-6">
                     <div>
-                      <Button className="bbtn bg-white  w-100 border-dark text-dark font_size_12 text-nowrap  br_15  font-weight-500 hover">
+                      <Button className="bbtn bg-white  w-100 br_1 font_color_blue font_size_12 text-nowrap  br_15  font-weight-500 hover">
                         Mobile Apps
                       </Button>
                     </div>
                   </div>
                   <div className="col-xl-3  col-6">
                     <div>
-                      <Button className="btn bg-white  w-100 border-dark text-dark font_size_12  br_15  font-weight-500 hover" >
+                      <Button className="btn bg-white  w-100 br_1 font_color_blue font_size_12  br_15  font-weight-500 hover" >
                         UI UX
                       </Button>
                     </div>
