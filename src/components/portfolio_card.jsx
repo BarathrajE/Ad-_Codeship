@@ -6,7 +6,7 @@ export function Portfolio_card({
   card_subtitle_3,
 }) {
   return (
-    <div className="test position-relative pt-5">
+    <div className="test position-relative">
       <img src={image} className="port_image position-relative z-1" alt="" />
       <p className="card_title hover_effect z-3  position-absolute font_size_24 font-weight-600 text-white line_height_28">
         {card_title}

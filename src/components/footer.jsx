@@ -9,7 +9,7 @@ const Footer = () => {
       <section className="bg-white">
         <div className="container pt-4 default_padding">
           <div className="row">
-            <div className="col-xl-7 col-lg-6 col-12 ">
+            <div className="col-xxl-7 col-xl-6 col-lg-6 col-12 ">
               <div className="">
                 <img src={logo} alt="" />
                 <p className="font_size_28 font-weight-500">www.codeship.in</p>
@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-5 col-lg-6 col-12  ">
+            <div className="col-xxl-5 col-xl-6 col-lg-6 col-12  ">
               <div className="row">
                 <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                   <p className="font_color_blue font_size_24 font-weight-600">
