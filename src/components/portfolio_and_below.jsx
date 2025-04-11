@@ -31,8 +31,16 @@ export function Portfolio_and_below() {
           },
           
           1024: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1041: {
             slidesPerView: 3,
-            spaceBetween: 30,
+            spaceBetween: 20,
+          },
+          1500: {
+            slidesPerView: 4,
+            spaceBetween: 20,
           },
         }}
         >
@@ -74,10 +82,35 @@ export function Portfolio_and_below() {
               card_subtitle_3={"E-commerce"}
             />
           </SwiperSlide>
+          <SwiperSlide id="port_swiper_slide">
+            {" "}
+            <Portfolio_card
+              image={mob}
+              card_title={"Foodhub Landing Page"}
+              card_subtitle_1={"UX/UI"}
+              card_subtitle_2={"Website"}
+              card_subtitle_3={"E-commerce"}
+            />
+          </SwiperSlide>
+          <SwiperSlide id="port_swiper_slide">
+            {" "}
+            <Portfolio_card
+              image={mob}
+              card_title={"Foodhub Landing Page"}
+              card_subtitle_1={"UX/UI"}
+              card_subtitle_2={"Website"}
+              card_subtitle_3={"E-commerce"}
+            />
+          </SwiperSlide>
         </Swiper>
       </div>
       {/* testimonials */}
       <div className="container testimonial py-5">
+        <div className="row">
+          <div className="col-12">
+            <p className="font_size_16 font-weight-600 font_color_blue" >Client testimonials</p>
+          </div>
+        </div>
         <div className="row justify-content-between">
           <div className="col-lg-6 col-12">
             <div className="col-xxl-12">
